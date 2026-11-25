@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Keep example env templates if needed
+!.env.example
+
+# Uploaded and rendered videos
+backend/uploads/
+backend/outputs/
+*.mp4
+*.mov
+*.webm
+*.m4v
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+npm-debug.log*
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
